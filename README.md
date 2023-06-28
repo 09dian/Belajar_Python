@@ -24,12 +24,15 @@ Python adalah bahasa pemrograman yang populer dan mudah dipelajari. Dalam pandua
 
 Sebelum memulai, pastikan Anda telah menginstal Python di komputer Anda. Untuk petunjuk instalasi langkah demi langkah, Anda dapat mengunjungi [dokumentasi resmi Python](https://www.python.org).
 
+
+
 ## Hello, World!
 
 Mari kita mulai dengan program sederhana "Hello, World!" untuk memastikan instalasi Python Anda berjalan dengan baik. Berikut ini contoh kode yang perlu Anda tulis:
 
 ```python
 print("Hello, World!")
+```
 
 ## Variabel dan Tipe Data
 
@@ -38,4 +41,5 @@ Dalam Python, Anda dapat menggunakan variabel untuk menyimpan data dan memberika
 ```python
 nama = "Fulan"
 umur = 25
+```
 
