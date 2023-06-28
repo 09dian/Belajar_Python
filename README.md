@@ -43,3 +43,70 @@ nama = "Fulan"
 umur = 25
 ```
 
+## Percabangan
+Percabangan merupakan salah satu konsep penting dalam pemrograman yang memungkinkan eksekusi kode berdasarkan kondisi-kondisi tertentu. Dalam bahasa pemrograman Python, terdapat beberapa jenis percabangan yang sering digunakan, yaitu if, if-else, dan if-elif-else. Dalam README ini, kita akan menjelaskan penggunaan dan sintaksis dari masing-masing jenis percabangan tersebut.
+
+## 1. Percabangan if
+Percabangan if digunakan untuk menjalankan blok kode jika suatu kondisi bernilai benar (True). Berikut adalah format dasar dari percabangan if:
+```
+if kondisi:
+    # blok kode yang akan dijalankan jika kondisi benar
+```
+Contoh penggunaan percabangan if:
+
+```umur = 18
+if umur >= 18:
+    print("Anda sudah cukup umur.")
+```
+Output:
+```
+Anda sudah cukup umur.
+```
+## 2. Percabangan if-else
+Percabangan if-else digunakan untuk menjalankan blok kode jika suatu kondisi bernilai benar (True), dan menjalankan blok kode lain jika kondisi tersebut bernilai salah (False). Berikut adalah format dasar dari percabangan if-else:
+```
+if kondisi:
+    # blok kode yang akan dijalankan jika kondisi benar
+else:
+    # blok kode yang akan dijalankan jika kondisi salah
+
+```
+Contoh penggunaan percabangan if-else:
+```
+umur = 15
+if umur >= 18:
+    print("Anda sudah cukup umur.")
+else:
+    print("Anda belum cukup umur.")
+```
+Output
+```
+Anda belum cukup umur.
+```
+## 3. Percabangan if-elif-else
+Percabangan if-elif-else digunakan untuk mengevaluasi beberapa kondisi secara berurutan dan menjalankan blok kode sesuai dengan kondisi yang terpenuhi. Blok kode di dalam bagian elif akan dievaluasi hanya jika kondisi sebelumnya tidak terpenuhi. Berikut adalah format dasar dari percabangan if-elif-else:
+```
+if kondisi1:
+    # blok kode yang akan dijalankan jika kondisi1 benar
+elif kondisi2:
+    # blok kode yang akan dijalankan jika kondisi2 benar
+else:
+    # blok kode yang akan dijalankan jika semua kondisi salah
+
+```
+Contoh penggunaan percabangan if-elif-else:
+```
+umur = 25
+if umur < 18:
+    print("Anda belum cukup umur.")
+elif umur >= 18 and umur < 21:
+    print("Anda sudah cukup umur, silakan tonton filem ini")
+else:
+    print("Anda sudah boleh nonton.")
+```
+Output :
+```
+Anda sudah boleh nonton.
+```
+
+Itulah penjelasan mengenai percabangan dalam Python. Dengan menggunakan percabangan, kita dapat mengendalikan alur program berdasarkan kondisi-kondisi tertentu.
