@@ -30,3 +30,12 @@ Mari kita mulai dengan program sederhana "Hello, World!" untuk memastikan instal
 
 ```python
 print("Hello, World!")
+
+## Variabel dan Tipe Data
+
+Dalam Python, Anda dapat menggunakan variabel untuk menyimpan data dan memberikannya nama yang dapat diidentifikasi. Berikut adalah contoh penggunaan variabel dalam Python:
+
+```python
+nama = "Fulan"
+umur = 25
+
