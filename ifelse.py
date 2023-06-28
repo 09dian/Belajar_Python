@@ -1,4 +1,4 @@
-x = 5
+x = 6
 
 if x > 0:
     print("Angka x adalah positif")
