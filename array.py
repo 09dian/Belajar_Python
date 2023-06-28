@@ -3,6 +3,6 @@
 # karena jika di ibartakan cars= [0,1,2] adalah implementasi dari  cars = ["volvo", "BMW", "Toyota"]
 
 cars = ["volvo", "BMW", "Toyota"]
-print( "aku suka sekali",cars[1])
+print( "aku suka sekali mobil",cars[1])
 
 # cat : silakan kembangkan sendiri
